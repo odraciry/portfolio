@@ -5,60 +5,47 @@ export const ContainerAbout = styled.div`
     height: 100vh;
     scroll-snap-align: start;
     padding: 2rem;
-    background: #fff;
+    background: #10435C09;
     h1{
         font-size: 1.5rem;
+        font-family: 'Barlow', sans-serif;
+        color: #075094D0;
     }
     .box{
         font-size: 1rem;
         margin: 1.5rem .2rem;
         text-align: left;
-        background: linear-gradient(45deg, #ffff, #BEC7CF27, #ffff);
+        background: linear-gradient(45deg, #07509415, #2C598038, #07509449);
+        border: 3px solid #07509433;
+        padding: 2rem;
+        border-radius: 5px;
 
         p{
             margin: .5rem;
-
+            color: #212427E7;
             span{
-                color: red;
+                color: #075094;
             }
         }
     }
     .skills{
-        background: #BEC7CF27;
+        background: #F5F5F527;
         border-radius: 9px;
-        margin-top: 2rem;
+        padding: 1rem;
         text-align: center;
         img{
-            width: 60px;
+            transition: width 1s;
+            width: 20%;
             margin: 1rem;
-        }
-    }
-    @media only screen and (min-width: 1024px){
-    h1{
-        font-size: 3rem;
-    }
-    .box{
-        font-size: 1.5rem;
-        margin: 3rem 2rem;
-        text-align: left;
-
-        p{
-            margin: 1rem;
-
-            span{
-                color: red;
+            animation: flutuacao 7s ease-in-out infinite;
+            :hover{
+                
+                transition: width 1s;
+                width: 21%;
             }
         }
-    }
-    .skills{
-        text-align: center;
-        img{
-            width: 100px;
-            animation: flutuacao 7s ease-in-out infinite;
-        }
-    }
-    }
 
+    }
     @media only screen and (min-width: 600px){
         padding: 3.3rem;
         h1{
@@ -71,23 +58,55 @@ export const ContainerAbout = styled.div`
 
             p{
                 margin: .5rem;
-
-                span{
-                    color: red;
-                }
             }
         }
         .st{
-            margin: 4rem 0;
+            margin: 2.5rem 0;
         }
         .skills{
             text-align: center;
+            padding: 0;
             img{
-                width: 90px;
+                transition: width 1s;
+                width: 10%;
                 margin: 1.1rem;
+                :hover{
+                transition: width 1s;
+                width: 11%;
+            }
             }
         }
     }
+
+    @media only screen and (min-width: 1024px){
+        padding: 2rem;
+    h1{
+        font-size: 3rem;
+    }
+    .box{
+        font-size: 1.5rem;
+        margin: 1.5rem 2rem;
+        text-align: left;
+        p{
+            margin: 1rem;
+        }
+    }
+    .skills{
+        text-align: center;
+        margin: 0;
+        img{
+            transition: width 1s;
+            width: 7%;
+            :hover{
+                
+                transition: width 1s;
+                width: 9%;
+            }
+        }
+    }
+    }
+
+    
 
     @keyframes flutuacao {
         0%{

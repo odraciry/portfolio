@@ -33,7 +33,7 @@ export function About() {
                     In my study journey, I've been working with <span>ReactJs</span> and <span>TypeScript</span> on the frontend, for the backend I use <span>Java</span> with <span>SpringBoot</span>.
                 </p>
             </div>
-            <h1 className="st">Skills and technologies</h1>
+            <h1 className="st">My technologies</h1>
             <div className="skills">
                 <img src={javascript} />
                 <img src={typescript} />

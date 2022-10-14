@@ -38,9 +38,15 @@ export const Container = styled.div`
         .box {
             padding: 5% 3%;
             display: block;
+            .sobre{
+                background: linear-gradient(120deg, #1D283450,#1D283400);
+                border-radius: 8px;
+                padding: 2rem;
+                text-align: center;
+            }
             h1 {
-                animation: flutuacao 12s ease-in-out infinite;
-                margin-top: 20%;
+                animation: flutuacao 30s ease-in-out infinite;
+                /* margin-top: 20%; */
                 font-size: 2rem;
                 border-bottom: 1px solid #1d2834;
                 span {
@@ -69,6 +75,10 @@ export const Container = styled.div`
             .sobre{
                 display: block;
                 margin-top: 10%;
+                text-align: left;
+                h1{
+                    margin-top: 20%;
+                }
                 p{  
                     font-size: 1.2rem;
                     margin-top: 1rem 

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContainerHeader = styled.div`
     width: 100%;
+    padding-top: 1rem;
     h1{
             color: black;
             font-family: 'Silkscreen', cursive;
