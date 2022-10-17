@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right bottom, white ,#1d2834, var(--vinho));
+    background: linear-gradient(to right bottom, #515151 ,#1d2834, var(--vinho));
     background-size: 300% 300%;
+    
     
     scroll-snap-align: start;
 
     transition: background-image 2s;
-    animation: colorir 20s ease-in-out forwards;
+    /* animation: colorir 20s ease-in-out forwards; */
+    animation: colorir 20s ease-in-out infinite;
 
     @keyframes flutuacao {
         0%, 100% {
@@ -30,19 +32,21 @@ export const Container = styled.div`
             background-position: 100% 50%;
         }
         100% {
-            background-position: 100% 50%;
+            background-position: 0% 25%;
         }
     }
 
 
         .box {
-            padding: 5% 3%;
+            padding:20% 3%;
             display: block;
+            
             .sobre{
-                background: linear-gradient(120deg, #1D283450,#1D283400);
+                background: linear-gradient(120deg, #1D283450,#E0E4E700);
                 border-radius: 8px;
                 padding: 2rem;
                 text-align: center;
+                box-shadow: -5px 5px 10px #000000A1;
             }
             h1 {
                 animation: flutuacao 30s ease-in-out infinite;
@@ -60,14 +64,12 @@ export const Container = styled.div`
                 margin-top: 1rem 
             }
             
-            .lottie{
-                /* display: none; */
-                
-            }
+            
         }
 
     @media only screen and (min-width: 600px){
         .box{
+            padding-top: 20%;
             display: flex;
             justify-content: space-around;
             margin: auto;
@@ -92,6 +94,7 @@ export const Container = styled.div`
 
     @media only screen and (min-width: 1025px)  {
         .box{
+            padding-top: 4%;
             display: flex;
             justify-content: space-around;
             

@@ -5,11 +5,12 @@ export const ContainerAbout = styled.div`
     height: 100vh;
     scroll-snap-align: start;
     padding: 2rem;
-    background: #10435C09;
+    background: #FAF8F2;
+    box-shadow: -5px 5px 10px #000000A1;
     h1{
         font-size: 1.5rem;
-        font-family: 'Barlow', sans-serif;
-        color: #075094D0;
+        font-weight: 500;
+        color: #515151;
     }
     .box{
         font-size: 1rem;
@@ -21,6 +22,8 @@ export const ContainerAbout = styled.div`
         border-radius: 5px;
 
         p{
+            font-family: 'Barlow', sans-serif;
+            font-weight: 600;
             margin: .5rem;
             color: #212427E7;
             span{
@@ -47,7 +50,7 @@ export const ContainerAbout = styled.div`
 
     }
     @media only screen and (min-width: 600px){
-        padding: 3.3rem;
+        padding: 10rem 3.3rem;
         h1{
             font-size: 3rem;
         }
@@ -79,7 +82,7 @@ export const ContainerAbout = styled.div`
     }
 
     @media only screen and (min-width: 1024px){
-        padding: 2rem;
+        padding: 8rem 2rem;
     h1{
         font-size: 3rem;
     }

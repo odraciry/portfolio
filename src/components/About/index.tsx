@@ -19,7 +19,7 @@ export function About() {
         Aos.init()
     },[])
     return (
-        <ContainerAbout>
+        <ContainerAbout id="about">
             <h1 className="about">About me</h1>
             <div className="box"
             data-aos-easing="ease-in-sine"

@@ -13,13 +13,15 @@ export const ContainerHeader = styled.div`
             a{
                 margin: 1rem;
                 font-size: 1.3rem;
-                transition: border-bottom 1s;
+                transition: 1s;
+                color: black;
+                text-decoration: none;
             }
             a:hover{
                 transition: 1s;
                 cursor: pointer;
                 border-bottom: 1px solid var(--vinho);
-                color: var(--azul-100);
+                font-weight: 600;
             }
         }
     

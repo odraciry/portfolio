@@ -5,7 +5,7 @@ export const ContainerContact = styled.div`
     height: 100vh;
     scroll-snap-align: start;
     padding: 2rem;
-    background: #222D3634;
+    background: #222D3615;
     color: #3F4850;
     h1{
         margin-bottom: -5%;
@@ -17,6 +17,7 @@ export const ContainerContact = styled.div`
         width: 100%;
         height: 500px;
         margin-top: 20%;
+        box-shadow: -5px 5px 10px #000000A1;
         .form{
             width: 90%;
             height: 100%;
@@ -74,6 +75,12 @@ export const ContainerContact = styled.div`
         }
     }
 }
+.direitos{
+    font-size: .5rem;
+    margin-top: 50%;
+    width: 100%;
+    text-align: center;
+}
 @media only screen and (min-width: 600px){
     .box{
         margin-top: 10%;
@@ -88,7 +95,14 @@ export const ContainerContact = styled.div`
                 margin-left: 40%;
             }
         }
-    }        
+    }   
+    .direitos{
+
+    margin-top: 20%;
+    padding-top: 30%;
+    font-size: .5rem;
+    background: #1D283407;
+}
 }
 @media only screen and (min-width: 1024px){
     .box{
@@ -97,16 +111,21 @@ export const ContainerContact = styled.div`
         }
         .links{
             display: flex;
-            width: 50%;
+            width: 40%;
             justify-content: space-around;
             margin: auto;
             img{
-                width: 4rem;
-                height: 4rem;
+                animation: flutuacao1 7s ease-in-out infinite;
+                width: 3rem;
+                height: 3rem;
                 
             }
         }
     }
+}
+.direitos{
+    margin-top: 0;
+    padding-top: 10%;
 }
 
 @keyframes flutuacao {
@@ -115,6 +134,14 @@ export const ContainerContact = styled.div`
         }
         50% {
             transform: translateY(-12px);
+        }
+    }
+    @keyframes flutuacao1 {
+        0%, 100%{
+            transform: translateX(0px);
+        }
+        50% {
+            transform: translateX(-12px);
         }
     }
 `;

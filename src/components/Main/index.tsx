@@ -3,6 +3,7 @@ import { Container } from "./style";
 import Lottie from 'react-lottie';
 import Aos from "aos";
 import developer from "../../assets/developer.json"
+import notebook from "../../assets/notebook.json"
 import { Header } from "../Header";
 
 
