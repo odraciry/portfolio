@@ -5,7 +5,7 @@ export const ContainerAbout = styled.div`
     height: 100vh;
     scroll-snap-align: start;
     padding: 2rem;
-    background: #FAF8F2;
+    background: #fff;
     box-shadow: -5px 5px 10px #000000A1;
     h1{
         font-size: 1.5rem;

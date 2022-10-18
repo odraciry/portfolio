@@ -117,7 +117,16 @@ background: #FAF8F2;
             padding-left: 15rem;
             padding-right: 15rem;
             div{
-                padding: 3rem 0;
+                padding: 8% 0;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1600px){
+        div{
+            padding: 4% 27%;
+            div{
+                padding:10%;
             }
         }
     }

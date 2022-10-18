@@ -11,7 +11,7 @@ export const Container = styled.div`
 
     transition: background-image 2s;
     /* animation: colorir 20s ease-in-out forwards; */
-    animation: colorir 20s ease-in-out infinite;
+    animation: colorir 10s ease-in-out infinite;
 
     @keyframes flutuacao {
         0%, 100% {
@@ -115,6 +115,20 @@ export const Container = styled.div`
         }  
         .lottie{
             width: 50%;
+        }
+    }
+
+    @media only screen and (min-width: 1600px){
+        .box{
+            padding-top:0;
+            .sobre{
+                
+                padding-top: 5%;
+                padding-bottom:6%;
+            }
+        }
+        .lottie {
+            width: 45%;
         }
     }
 `;

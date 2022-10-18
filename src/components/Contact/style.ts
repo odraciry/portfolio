@@ -9,14 +9,14 @@ export const ContainerContact = styled.div`
     color: #3F4850;
     h1{
         margin-bottom: -5%;
-        margin-top: 5%;
+        margin-top: 9%;
     }
     .box{
         display: flex;
         background: #3F4850;
         width: 100%;
         height: 500px;
-        margin-top: 20%;
+        margin-top: 27%;
         box-shadow: -5px 5px 10px #000000A1;
         .form{
             width: 90%;
@@ -101,7 +101,6 @@ export const ContainerContact = styled.div`
     margin-top: 20%;
     padding-top: 30%;
     font-size: .5rem;
-    background: #1D283407;
 }
 }
 @media only screen and (min-width: 1024px){
@@ -126,6 +125,19 @@ export const ContainerContact = styled.div`
 .direitos{
     margin-top: 0;
     padding-top: 10%;
+}
+
+@media only screen and (min-width: 1600px){
+    h1{
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .box{
+        margin-top: 2%;
+    }
+    .direitos{
+        padding-top:0;
+    }
 }
 
 @keyframes flutuacao {
