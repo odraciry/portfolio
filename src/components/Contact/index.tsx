@@ -70,10 +70,18 @@ export function Conatact() {
                     </form>
                 </div>
                 <div className="links">
-                    <a><img src={instagram} /></a>
-                    <a><img src={linkedin} /></a>
-                    <a><img src={emailImg} /></a>
-                    <a><img src={github} /></a>
+                    <a href="https://www.instagram.com/ricardosilva.ofc/">
+                        <img src={instagram} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/odracir-silva/">
+                        <img src={linkedin} />
+                    </a>
+                    <a href="mailto:ricSilva2006@gmail.com">
+                        <img src={emailImg} />
+                    </a>
+                    <a href="https://github.com/odraciry">
+                        <img src={github} />
+                    </a>
                 </div>
             </div>
             <div className="direitos">
