@@ -3,15 +3,16 @@ import styled from "styled-components";
 export const ContainerContact = styled.div`
     width: 100%;
     height: 100vh;
-    scroll-snap-align: start;
     padding: 2rem;
     background: #222D3615;
     color: #3F4850;
+    
     h1{
         margin-bottom: -5%;
         margin-top: 9%;
     }
     .box{
+        border-radius: 5px;
         display: flex;
         background: #3F4850;
         width: 100%;
@@ -19,6 +20,7 @@ export const ContainerContact = styled.div`
         margin-top: 27%;
         box-shadow: -5px 5px 10px #000000A1;
         .form{
+            border-radius: 5px;
             width: 90%;
             height: 100%;
             padding: 2rem;
@@ -95,14 +97,22 @@ export const ContainerContact = styled.div`
                 margin-left: 40%;
             }
         }
-    }   
+        img{
+            transition: 1s;
+            :hover{
+                transition: 1s;
+                cursor: pointer;
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+        }
+    }
+}   
     .direitos{
+        padding-top: 0%;
+        font-size: .5rem;
+    }
 
-    margin-top: 20%;
-    padding-top: 30%;
-    font-size: .5rem;
-}
-}
 @media only screen and (min-width: 1024px){
     .box{
         .form{
@@ -117,23 +127,42 @@ export const ContainerContact = styled.div`
                 animation: flutuacao1 7s ease-in-out infinite;
                 width: 3rem;
                 height: 3rem;
-                
+                transition: 1s;
+                :hover{
+                    transition: 1s;
+                    cursor: pointer;
+                    width: 3.5rem;
+                    height: 3.5rem;
+                }
             }
         }
     }
 }
 .direitos{
     margin-top: 0;
-    padding-top: 10%;
+    padding-top: 0%;
 }
 
 @media only screen and (min-width: 1600px){
+    padding: 2% 5%;
     h1{
         margin-bottom: 5%;
         margin-top: 5%;
     }
     .box{
         margin-top: 2%;
+        div{
+            padding: 0 4%;
+        }
+        img{
+            transition: 1s;
+            :hover{
+                transition: 1s;
+                cursor: pointer;
+                width: 3.5rem;
+                height: 3.5rem;
+            }
+        }
     }
     .direitos{
         padding-top:0;

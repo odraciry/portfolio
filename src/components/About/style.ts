@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerAbout = styled.div`
     width: 100%;
     height: 100vh;
-    scroll-snap-align: start;
     padding: 2rem;
     background: #fff;
     box-shadow: -5px 5px 10px #000000A1;
@@ -50,7 +49,7 @@ export const ContainerAbout = styled.div`
 
     }
     @media only screen and (min-width: 600px){
-        padding: 10rem 3.3rem;
+        padding: 5rem 3.3rem;
         h1{
             font-size: 3rem;
         }
@@ -82,7 +81,7 @@ export const ContainerAbout = styled.div`
     }
 
     @media only screen and (min-width: 1024px){
-        padding: 8rem 2rem;
+        padding: 5rem 2rem;
     h1{
         font-size: 3rem;
     }
@@ -101,7 +100,6 @@ export const ContainerAbout = styled.div`
             transition: width 1s;
             width: 7%;
             :hover{
-                
                 transition: width 1s;
                 width: 9%;
             }

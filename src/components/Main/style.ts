@@ -3,15 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right bottom, #515151 ,#1d2834, var(--vinho));
+    background: linear-gradient(to right bottom, #515151 ,#1d2834, var(--vermelho));
     background-size: 300% 300%;
-    
-    
-    scroll-snap-align: start;
+    box-shadow: -5px 5px 10px #000000A1;
 
     transition: background-image 2s;
     /* animation: colorir 20s ease-in-out forwards; */
-    animation: colorir 10s ease-in-out infinite;
+    animation: colorir 14s ease-in infinite;
 
     @keyframes flutuacao {
         0%, 100% {
@@ -36,7 +34,6 @@ export const Container = styled.div`
         }
     }
 
-
         .box {
             padding:20% 3%;
             display: block;
@@ -55,13 +52,13 @@ export const Container = styled.div`
                 border-bottom: 1px solid #1d2834;
                 span {
                     font-size: 3rem;
-                    color: var(--vinho);
+                    color: #CE6A85;
                 }
             }
             p {  
                 animation: flutuacao 9s ease-in-out infinite;
                 font-size: 1.2rem;
-                margin-top: 1rem 
+                margin-top: 1rem;
             }
             
             

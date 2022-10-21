@@ -7,7 +7,6 @@ box-sizing: border-box;
 background: #FAF8F2;
 
     div{
-        scroll-snap-align: start;
         height: 100vh;
         background: #326CAA00;
         margin: auto;
@@ -104,6 +103,10 @@ background: #FAF8F2;
     @media only screen and (min-width: 600px){
         div{
             padding: 8% 2rem;
+            border-radius: 9px;
+            img{
+                border-radius: 9px;
+            }
             div{
                 padding: 5rem;
                 p{
@@ -114,8 +117,8 @@ background: #FAF8F2;
     }
     @media only screen and (min-width: 1025px){
         div{
-            padding-left: 15rem;
-            padding-right: 15rem;
+            padding: 1% 18%;
+            
             div{
                 padding: 8% 0;
             }
@@ -124,7 +127,7 @@ background: #FAF8F2;
 
     @media only screen and (min-width: 1600px){
         div{
-            padding: 4% 27%;
+            padding: 1% 27%;
             div{
                 padding:10%;
             }

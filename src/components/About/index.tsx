@@ -1,15 +1,15 @@
 import { ContainerAbout } from "./style";
 import { useEffect } from "react"
 import Aos from "aos";
-import javascript from "../../assets/javascript.png"
+import javascript from "../../assets/script-java.png"
 import typescript from "../../assets/typescript.png"
 import html from "../../assets/html.png"
 import css from "../../assets/css.png"
 import git from "../../assets/git.png"
 import github from "../../assets/github.png"
-import next from "../../assets/next.png"
+import spring from "../../assets/boot_spring.png"
 import java from "../../assets/java.png"
-import node from "../../assets/node.png"
+import node from "../../assets/node-js.png"
 import sass from "../../assets/sass.png"
 import react from "../../assets/react.png"
 import mysql from "../../assets/mysql.png"
@@ -40,14 +40,14 @@ export function About() {
                 <img src={html} />
                 <img src={css} />
                 <img src={react} />
-                <img src={node} />
+                <img src={github} />
                 <br/>
                 <img src={java} />
                 <img src={sass} />
                 <img src={mysql} />
-                <img src={next} />
+                <img src={node} />
+                <img src={spring} />
                 <img src={git} />
-                <img src={github} />
             </div>
         </ContainerAbout>
     )

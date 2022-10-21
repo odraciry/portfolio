@@ -1,7 +1,7 @@
 import { ContainerContact } from "./style";
-import github from "../../assets/github1.png"
+import github from "../../assets/github.png"
 import instagram from "../../assets/instagram.png"
-import whatsapp from "../../assets/whatsapp.png"
+import linkedin from "../../assets/linkedin.png"
 import emailImg from "../../assets/o-email.png"
 import emailjs from "@emailjs/browser"
 import { useState } from "react";
@@ -70,10 +70,10 @@ export function Conatact() {
                     </form>
                 </div>
                 <div className="links">
-                    <img src={instagram} />
-                    <img src={whatsapp} />
-                    <img src={emailImg} />
-                    <img src={github} />
+                    <a><img src={instagram} /></a>
+                    <a><img src={linkedin} /></a>
+                    <a><img src={emailImg} /></a>
+                    <a><img src={github} /></a>
                 </div>
             </div>
             <div className="direitos">

@@ -22,6 +22,7 @@ export const ContainerHeader = styled.div`
                 cursor: pointer;
                 border-bottom: 1px solid var(--vinho);
                 font-weight: 600;
+                color: #CE6A85;
             }
         }
     
