@@ -29,7 +29,7 @@ export function About() {
                 Na minha jornada de estudos, tenho trabalhado com <span>ReactJs</span> e <span>TypeScript</span> no frontend, já para o backend uso <span>Java</span> com <span>SpringBoot</span>.
                 </p>
                 <p>
-                Estou em busca de meu primeiro emprego, para poder aprender muito mais e aprofundar os meus conhecimentos nas tecnologias.
+                Estou em busca de meu primeiro emprego, para poder aprender e aprofundar muito mais os meus conhecimentos nas tecnologias.
                 </p>
             </div>
             <h1 className="st">Minhas tecnologias</h1>
