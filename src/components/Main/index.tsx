@@ -20,14 +20,6 @@ export function Main() {
         }
     };
 
-    const responsive = () => {
-
-    }
-
-    useEffect(() => {
-        Aos.init();
-    }, [])
-
     return (
 
         <>
@@ -39,8 +31,8 @@ export function Main() {
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
                     >
-                        <h1 >Hello, I'm <br /><span>Ricardo Silva</span></h1>
-                        <p className="descricao">I'm a full-stack developer</p>
+                        <h1 >Olá, sou <br /><span>Ricardo Silva</span></h1>
+                        <p className="descricao">Eu sou um desenvolvedor full-stack</p>
                     </div>
                     <div className="lottie">
                         <Lottie

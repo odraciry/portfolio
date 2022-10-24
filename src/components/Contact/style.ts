@@ -56,6 +56,7 @@ export const ContainerContact = styled.div`
                 margin-left: 50%;
                 font-size: 1rem;
                 font-weight: 500;
+                transition: 1.5s;
                 :hover{
                     transition: 1s;
                     background: #1d2834;
@@ -70,7 +71,6 @@ export const ContainerContact = styled.div`
             width: 2rem;
             height: 2rem;
             margin: 1rem;
-            animation: flutuacao 7s ease-in-out infinite;
                 :hover{
                     cursor: pointer;
                 }

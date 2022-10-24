@@ -44,12 +44,12 @@ export function Conatact() {
 
     return (
         <ContainerContact id="contact">
-            <h1>Contact</h1>
+            <h1>Contato</h1>
             <div className="box">
                 <div className="form">
-                    <h3>Get in touch</h3>
+                    <h3>Entrar em contato</h3>
                     <form onSubmit={sendEmail}>
-                        <input type="text" name="name" className="nome" placeholder="Name"
+                        <input type="text" name="name" className="nome" placeholder="Nome"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                         />
@@ -57,7 +57,7 @@ export function Conatact() {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                         />
-                        <input type="text" name="message" className="mensagem" maxLength={400} placeholder="Message"
+                        <input type="text" name="message" className="mensagem" maxLength={400} placeholder="Mensagem"
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                         />
@@ -65,7 +65,7 @@ export function Conatact() {
                             type="submit"
                         // onClick={() => handleEmail(mensagem)}
                         >
-                            Submit
+                            Enviar
                         </button>
                     </form>
                 </div>

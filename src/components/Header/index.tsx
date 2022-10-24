@@ -7,9 +7,9 @@ export function Header () {
         <ContainerHeader>
             <h1>Odracir</h1> 
             <nav>
-                <a href='#about'>About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <a href='#about'>Sobre</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
             </nav>
         </ContainerHeader>
     )

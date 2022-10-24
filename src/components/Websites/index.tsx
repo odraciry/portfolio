@@ -11,7 +11,7 @@ export function Websites() {
                 <img src={ignews} />
                 <div>
                     <p>
-                        Blog desenvolvido para aprender Next.js e seus fundamentos, utilizando funções back-end (serverless) para a comunicação com uma plataforma de pagamentos (Stripe), banco de dados (FaunaDB) e o CMS (Prismic CMS).
+                        Blog desenvolvido para aprender Next.js e seus fundamentos, utilizando funções back-end (serverless) para a comunicação com uma plataforma de pagamentos (Stripe).
                     </p>
                 </div>
             </div>

@@ -15,25 +15,24 @@ import react from "../../assets/react.png"
 import mysql from "../../assets/mysql.png"
 
 export function About() {
-    useEffect(()=>{
-        Aos.init()
-    },[])
     return (
         <ContainerAbout id="about">
-            <h1 className="about">About me</h1>
+            <h1 className="about">Sobre mim</h1>
             <div className="box"
             data-aos-easing="ease-in-sine"
             data-aos-delay="850"
             data-aos-duration="3000"
             >
 
-                <p>I'm 19 years old, I'm studying <span>systems development</span>.</p>
+                <p>Tenho 19 anos, estou estudando <span>desenvolvimento de sistemas</span>.</p>
                 <p>
-                    I am focused on improving my knowledge in development.
-                    In my study journey, I've been working with <span>ReactJs</span> and <span>TypeScript</span> on the frontend, for the backend I use <span>Java</span> with <span>SpringBoot</span>.
+                Na minha jornada de estudos, tenho trabalhado com <span>ReactJs</span> e <span>TypeScript</span> no frontend, já para o backend uso <span>Java</span> com <span>SpringBoot</span>.
+                </p>
+                <p>
+                Estou em busca de meu primeiro emprego, para poder aprender muito mais e aprofundar os meus conhecimentos nas tecnologias.
                 </p>
             </div>
-            <h1 className="st">My technologies</h1>
+            <h1 className="st">Minhas tecnologias</h1>
             <div className="skills">
                 <img src={javascript} />
                 <img src={typescript} />
