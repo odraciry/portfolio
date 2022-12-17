@@ -16,6 +16,7 @@ background: #FAF8F2;
         h1{
             color: #515151;
             padding: 2rem;
+            text-shadow: -5px 5px 8px #00000083;
         }
         img{
             width: 100%;
