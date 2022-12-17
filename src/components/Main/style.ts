@@ -96,6 +96,8 @@ export const Container = styled.div`
                 display: block;
                 margin-top: 10%;
                 text-align: left;
+                transition: 4.5s;
+                animation: 5s ease-in-out 0s infinite normal none running flutuacao;
                 h1{
                     margin-top: 20%;
                 }
