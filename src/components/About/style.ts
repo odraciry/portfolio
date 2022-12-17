@@ -10,6 +10,7 @@ export const ContainerAbout = styled.div`
         font-size: 1.5rem;
         font-weight: 500;
         color: #515151;
+        text-shadow: -3px 3px 8px #000000BD;
     }
     .box{
         font-size: 1rem;
