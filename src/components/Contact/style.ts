@@ -10,6 +10,7 @@ export const ContainerContact = styled.div`
     h1{
         margin-bottom: -5%;
         margin-top: 9%;
+        text-shadow: -3px 3px 6px #000000D5;
     }
     .box{
         border-radius: 5px;
