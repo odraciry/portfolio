@@ -45,13 +45,28 @@ export const Container = styled.div`
                 text-align: center;
                 box-shadow: -5px 5px 10px #000000A1;
                 backdrop-filter: invert(0%);
-                transition: 1s ease-in-out;
+                border: 4px solid #00000000;
+                transition: 4s ease-in-out;
+
 
                 :hover{
-                    box-shadow: -8px 8px 20px #3680C9;
                     transition: 4.5s ease-in-out;
-                    background: linear-gradient(120deg, #0104073B, #1A191931);
-                    
+                    backdrop-filter: invert(10%);
+                    -webkit-box-shadow: 0px 0px 32px 20px rgba(54,128,201,6);
+                    -moz-box-shadow: 0px 0px 32px 20px rgba(54,128,201,6);
+                    box-shadow: 0px 0px 25px 10px rgba(54,128,201,6);
+                    background: linear-gradient(120deg, #071E3511, #020D1823);
+                    border: 4px solid #367FC994;
+                    h1{
+                        span{
+                            transition: 4s ease-in-out;
+                            color: #061D36;
+                            text-shadow: -5px 5px 20px #3680C9;
+                        }
+                    }
+
+                }   
+            }
                     h1{
                         span{
                             transition: 4s ease-in-out;
