@@ -54,7 +54,7 @@ export const Container = styled.div`
                     backdrop-filter: invert(10%);
                     -webkit-box-shadow: 0px 0px 32px 20px rgba(54,128,201,6);
                     -moz-box-shadow: 0px 0px 32px 20px rgba(54,128,201,6);
-                    box-shadow: 0px 0px 25px 10px rgba(54,128,201,6);
+                    box-shadow: 0px 0px 25px -10px rgba(54,128,201,6);
                     background: linear-gradient(120deg, #071E3511, #020D1823);
                     border: 4px solid #367FC994;
                     h1{
