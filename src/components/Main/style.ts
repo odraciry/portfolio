@@ -67,16 +67,6 @@ export const Container = styled.div`
 
                 }   
             }
-                    h1{
-                        span{
-                            transition: 4s ease-in-out;
-                            color: #061D36;
-                            text-shadow: -5px 5px 20px #3680C9;
-                        }
-                    }
-
-                }   
-            }
             h1 {
                 animation: flutuacao 30s ease-in-out infinite;
                 /* margin-top: 20%; */
@@ -97,6 +87,8 @@ export const Container = styled.div`
                 margin-top: 1rem;
             }
             
+            
+        }
             
         }
 
