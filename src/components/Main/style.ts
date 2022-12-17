@@ -50,7 +50,6 @@ export const Container = styled.div`
                 :hover{
                     box-shadow: -8px 8px 20px #3680C9;
                     transition: 4.5s ease-in-out;
-                    box-shadow: -8px 8px 20px #000000A1;
                     background: linear-gradient(120deg, #0104073B, #1A191931);
                     
                     h1{
