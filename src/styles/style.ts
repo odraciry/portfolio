@@ -30,13 +30,19 @@ export const GlobalStyle = createGlobalStyle`
         }
     }
     @media only screen and (min-width: 600px){
+        ::-webkit-scrollbar-track {
+            background: #0310229A;    
+        }
+
         ::-webkit-scrollbar{
             width: 12px;
         }
     
         ::-webkit-scrollbar-thumb{
-            width: 10px;
-            background: var(--vinho);
+            width: 15px;
+            height: 105px;
+            background: #0B131FB7;
+            border-radius:3px;
         }
     }
 
