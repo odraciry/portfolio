@@ -93,6 +93,10 @@ export const Container = styled.div`
         }
 
     @media only screen and (min-width: 600px){
+        background: linear-gradient(100deg, #515151 ,#1d2834, #5E0505);
+        background-size: 300% 300%;
+        transition: background-image 2s;
+        animation: colorir 14s ease-in infinite;
         .box{
             padding-top: 20%;
             display: flex;
