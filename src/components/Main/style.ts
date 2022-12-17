@@ -44,18 +44,39 @@ export const Container = styled.div`
                 padding: 2rem;
                 text-align: center;
                 box-shadow: -5px 5px 10px #000000A1;
+                backdrop-filter: invert(0%);
+                transition: 1s ease-in-out;
+
+                :hover{
+                    transition: 1s ease-in-out;
+                    box-shadow: -8px 8px 20px #000000A1;
+                    background: linear-gradient(120deg, #0104073B, #1A191931);
+                    
+                    h1{
+                        span{
+                            transition: 4s ease-in-out;
+                            color: #061D36;
+                            text-shadow: -5px 5px 20px #3680C9;
+                        }
+                    }
+
+                }   
             }
             h1 {
                 animation: flutuacao 30s ease-in-out infinite;
                 /* margin-top: 20%; */
                 font-size: 2rem;
                 border-bottom: 1px solid #1d2834;
+                text-shadow: -5px 5px 10px #000000C2;
                 span {
+                    transition: 4s ease-in-out;
                     font-size: 3rem;
-                    color: #CE6A85;
+                    color: #CE6A85DC;
+                    text-shadow: -5px 5px 10px #000000C2;
                 }
             }
             p {  
+                text-shadow: -5px 5px 10px #000000BD;
                 animation: flutuacao 9s ease-in-out infinite;
                 font-size: 1.2rem;
                 margin-top: 1rem;
